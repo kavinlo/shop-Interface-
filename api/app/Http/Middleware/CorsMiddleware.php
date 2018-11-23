@@ -15,7 +15,6 @@ class CorsMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $response = $next($request);
         $origin = $request->server('HTTP_ORIGIN') ? $request->server('HTTP_ORIGIN') : '';
         // 允许访问的域名列表
         $allow_origin = [
