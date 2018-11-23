@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 's_members'),
 
     /*
     |--------------------------------------------------------------------------
@@ -50,7 +50,7 @@ return [
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
-            'prefix' => '',
+            'prefix' => 's_',
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,

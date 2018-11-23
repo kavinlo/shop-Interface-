@@ -16,3 +16,14 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// 用户注册
+Route::post('members','MemberController@insert');
+
+// 用户登录
+Route::post('authorization','MemberController@login');
+
+// 使用中间件
+Route::middleware(['jwt'])->group(function(){
+    Route::post('orders','MemberController@order');
+});

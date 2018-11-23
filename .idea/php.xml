@@ -75,6 +75,7 @@
       <path value="$PROJECT_DIR$/api/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/api/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/api/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/api/vendor/firebase/php-jwt" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

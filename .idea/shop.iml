@@ -16,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/erusev/parsedown" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/jakub-onderka/php-console-color" />
